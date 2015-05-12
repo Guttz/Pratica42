@@ -1,4 +1,3 @@
-
 import utfpr.ct.dainf.if62c.pratica.Circulo;
 import utfpr.ct.dainf.if62c.pratica.Elipse;
 
@@ -24,6 +23,9 @@ public class Pratica42 {
         PC = C1.getPerimetro();
         PE = E1.getPerimetro();
         
+        System.out.println("Area da Elipse: " + AE);
+        System.out.println("Perimetro do Circulo: " + PC);
+        System.out.println("Perimetro da Elipse: " + PE);
         System.out.println("Area do Circulo: " + AC);
         System.out.println("Area da Elipse: " + AE);
         System.out.println("Perimetro do Circulo: " + PC);
